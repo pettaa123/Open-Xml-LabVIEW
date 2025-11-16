@@ -124,7 +124,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
 	</Item>
-	<Item Name="Test Get Table Column Cell Value.vi" Type="VI" URL="../Test Get Table Column Cell Value.vi">
+	<Item Name="Test Get Table Column Headers.vi" Type="VI" URL="../Test Get Table Column Headers.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!8&amp;62F=X1A4X"F&lt;C"9&lt;7QO&lt;(:D&lt;'&amp;T=Q!.6'6T&gt;#"$98.F)%^V&gt;!!O1(!!(A!!&amp;R65:8.U)%^Q:7YA7'VM,GRW9WRB=X-!$&amp;2F=X1A1W&amp;T:3"*&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!1!"!!%!!9$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
@@ -133,7 +133,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 	</Item>
-	<Item Name="Test Get Table Column Headers.vi" Type="VI" URL="../Test Get Table Column Headers.vi">
+	<Item Name="Test Get Table Rows by Column Value (VAR).vi" Type="VI" URL="../Test Get Table Rows by Column Value (VAR).vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!8&amp;62F=X1A4X"F&lt;C"9&lt;7QO&lt;(:D&lt;'&amp;T=Q!.6'6T&gt;#"$98.F)%^V&gt;!!O1(!!(A!!&amp;R65:8.U)%^Q:7YA7'VM,GRW9WRB=X-!$&amp;2F=X1A1W&amp;T:3"*&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!1!"!!%!!9$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
+	<Item Name="Test Get Table Values (VAR).vi" Type="VI" URL="../Test Get Table Values (VAR).vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!8&amp;62F=X1A4X"F&lt;C"9&lt;7QO&lt;(:D&lt;'&amp;T=Q!.6'6T&gt;#"$98.F)%^V&gt;!!O1(!!(A!!&amp;R65:8.U)%^Q:7YA7'VM,GRW9WRB=X-!$&amp;2F=X1A1W&amp;T:3"*&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!1!"!!%!!9$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>

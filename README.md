@@ -53,6 +53,12 @@ Adds and lists sheets.
 
 ![addsheet](sample_add_sheet.png)
 
+# Get Table Rows by Column Value
+Returns table rows filtered by column value
+
+![gettablerowsbycolumnvalue](sample_get_table_rows_by_column_value.png)
+
+
 # Get Named Range Values (String)
 Retrieves a specified named range from a worksheet.
 

@@ -105,7 +105,10 @@
 		<Item Name="Get SheetData.vi" Type="VI" URL="../Get SheetData.vi"/>
 		<Item Name="Get Sheets.vi" Type="VI" URL="../Get Sheets.vi"/>
 		<Item Name="Get Stylesheet.vi" Type="VI" URL="../Get Stylesheet.vi"/>
+		<Item Name="Get Table.vi" Type="VI" URL="../Get Table.vi"/>
+		<Item Name="Get Table Column Range.vi" Type="VI" URL="../Get Table Column Range.vi"/>
 		<Item Name="Get Table Range.vi" Type="VI" URL="../Get Table Range.vi"/>
+		<Item Name="Get Table Values Range.vi" Type="VI" URL="../Get Table Values Range.vi"/>
 		<Item Name="Get TableDefinitionPart.vi" Type="VI" URL="../Get TableDefinitionPart.vi"/>
 		<Item Name="Get TablePart.vi" Type="VI" URL="../Get TablePart.vi"/>
 		<Item Name="Get WorksheetPart.vi" Type="VI" URL="../Get WorksheetPart.vi"/>
@@ -132,21 +135,25 @@
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
 	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>
 	<Item Name="Get Cell Values.vi" Type="VI" URL="../Get Cell Values.vi"/>
+	<Item Name="Get Cell Values (VAR).vi" Type="VI" URL="../Get Cell Values (VAR).vi"/>
 	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
-	<Item Name="Get Sheet Names.vi" Type="VI" URL="../Get Sheet Names.vi"/>
 	<Item Name="Get Named Range.vi" Type="VI" URL="../Get Named Range.vi"/>
 	<Item Name="Get Named Ranges.vi" Type="VI" URL="../Get Named Ranges.vi"/>
 	<Item Name="Get Named Range Values (Boolean).vi" Type="VI" URL="../Get Named Range Values (Boolean).vi"/>
 	<Item Name="Get Named Range Values (String).vi" Type="VI" URL="../Get Named Range Values (String).vi"/>
 	<Item Name="Get Named Range Values (VAR).vi" Type="VI" URL="../Get Named Range Values (VAR).vi"/>
 	<Item Name="Get Row Values.vi" Type="VI" URL="../Get Row Values.vi"/>
+	<Item Name="Get Sheet Names.vi" Type="VI" URL="../Get Sheet Names.vi"/>
+	<Item Name="Get Table Column Values (VAR).vi" Type="VI" URL="../Get Table Column Values (VAR).vi"/>
 	<Item Name="Get Table Column Headers.vi" Type="VI" URL="../Get Table Column Headers.vi"/>
-	<Item Name="Get Table Row Values.vi" Type="VI" URL="../Get Table Row Values.vi"/>
+	<Item Name="Get Table Row by Index (VAR).vi" Type="VI" URL="../Get Table Row by Index (VAR).vi"/>
+	<Item Name="Get Table Rows by Column Value (VAR).vi" Type="VI" URL="../Get Table Rows by Column Value (VAR).vi"/>
+	<Item Name="Get Table Values (VAR).vi" Type="VI" URL="../Get Table Values (VAR).vi"/>
+	<Item Name="Insert Table.vi" Type="VI" URL="../Insert Table.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 	<Item Name="Set Cell Value.vim" Type="VI" URL="../Set Cell Value.vim"/>
 	<Item Name="Set Column Values.vi" Type="VI" URL="../Set Column Values.vi"/>
 	<Item Name="Set Font.vi" Type="VI" URL="../Set Font.vi"/>
 	<Item Name="Set Row Values.vi" Type="VI" URL="../Set Row Values.vi"/>
 	<Item Name="Set Named Range.vi" Type="VI" URL="../Set Named Range.vi"/>
-	<Item Name="Insert Table.vi" Type="VI" URL="../Insert Table.vi"/>
 </Library>
