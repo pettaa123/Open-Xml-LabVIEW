@@ -28,6 +28,9 @@
 		<Item Name="-8351 Cant interprete value as boolean--error.vi" Type="VI" URL="../-8351 Cant interprete value as boolean--error.vi"/>
 		<Item Name="-8352 Invalid Table Identifier--error.vi" Type="VI" URL="../-8352 Invalid Table Identifier--error.vi"/>
 		<Item Name="-8339 Dimensions mismatch in table arguments--error.vi" Type="VI" URL="../-8339 Dimensions mismatch in table arguments--error.vi"/>
+		<Item Name="-8338 Table name must begin with either a letter or underscore or backlash--error.vi" Type="VI" URL="../-8338 Table name must begin with either a letter or underscore or backlash--error.vi"/>
+		<Item Name="-8337 Invalid character in table name--error.vi" Type="VI" URL="../-8337 Invalid character in table name--error.vi"/>
+		<Item Name="-8336 Table name must not be R or C--error.vi" Type="VI" URL="../-8336 Table name must not be R or C--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -129,6 +132,7 @@
 		<Item Name="Set CellFormat to DateTime.vi" Type="VI" URL="../Set CellFormat to DateTime.vi"/>
 		<Item Name="Shift Rows Below Index.vi" Type="VI" URL="../Shift Rows Below Index.vi"/>
 		<Item Name="Timestamp to Excel Serial Date.vi" Type="VI" URL="../Timestamp to Excel Serial Date.vi"/>
+		<Item Name="Validate Table Name.vi" Type="VI" URL="../Validate Table Name.vi"/>
 	</Item>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
