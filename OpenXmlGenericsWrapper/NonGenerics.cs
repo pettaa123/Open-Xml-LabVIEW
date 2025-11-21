@@ -29,7 +29,7 @@ namespace OpenXmlGenericsWrapper
 
             // Otherwise, try to find the table by name
             return worksheetPart.TableDefinitionParts
-                                .FirstOrDefault(t => t.Table?.Name == tableName);
+                                .FirstOrDefault(t => string.Equals(t.Table?.Name, tableName, StringComparison.OrdinalIgnoreCase));
         }
 
         public static void InsertBeforeCell(Row row, Cell newChild, Cell referenceChild)

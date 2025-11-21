@@ -31,6 +31,12 @@
 		<Item Name="-8338 Table name must begin with either a letter or underscore or backlash--error.vi" Type="VI" URL="../-8338 Table name must begin with either a letter or underscore or backlash--error.vi"/>
 		<Item Name="-8337 Invalid character in table name--error.vi" Type="VI" URL="../-8337 Invalid character in table name--error.vi"/>
 		<Item Name="-8336 Table name must not be R or C--error.vi" Type="VI" URL="../-8336 Table name must not be R or C--error.vi"/>
+		<Item Name="-8335 row index out of table range--error.vi" Type="VI" URL="../-8335 row index out of table range--error.vi"/>
+		<Item Name="-8334 Table display name must begin with either a letter or underscore or backlash--error.vi" Type="VI" URL="../-8334 Table display name must begin with either a letter or underscore or backlash--error.vi"/>
+		<Item Name="-8333 Invalid character in table display name--error.vi" Type="VI" URL="../-8333 Invalid character in table display name--error.vi"/>
+		<Item Name="-8332 Table display name must not be R or C--error.vi" Type="VI" URL="../-8332 Table display name must not be R or C--error.vi"/>
+		<Item Name="-8331 Forbidden characters in table column name--error.vi" Type="VI" URL="../-8331 Forbidden characters in table column name--error.vi"/>
+		<Item Name="-8330 Could not find table--error.vi" Type="VI" URL="../-8330 Could not find table--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -70,7 +76,9 @@
 		<Item Name="Find Font.vi" Type="VI" URL="../Find Font.vi"/>
 		<Item Name="Find Row.vi" Type="VI" URL="../Find Row.vi"/>
 		<Item Name="Find StyleIndex by NumberingFormat.vi" Type="VI" URL="../Find StyleIndex by NumberingFormat.vi"/>
+		<Item Name="Format Cell Address.vi" Type="VI" URL="../Format Cell Address.vi"/>
 		<Item Name="Format Cell Range to Named Range.vi" Type="VI" URL="../Format Cell Range to Named Range.vi"/>
+		<Item Name="Format Name.vi" Type="VI" URL="../Format Name.vi"/>
 		<Item Name="Get Cell.vi" Type="VI" URL="../Get Cell.vi"/>
 		<Item Name="Get CellFormat.vi" Type="VI" URL="../Get CellFormat.vi"/>
 		<Item Name="Get Cell Type.vi" Type="VI" URL="../Get Cell Type.vi"/>
@@ -132,7 +140,9 @@
 		<Item Name="Set CellFormat to DateTime.vi" Type="VI" URL="../Set CellFormat to DateTime.vi"/>
 		<Item Name="Shift Rows Below Index.vi" Type="VI" URL="../Shift Rows Below Index.vi"/>
 		<Item Name="Timestamp to Excel Serial Date.vi" Type="VI" URL="../Timestamp to Excel Serial Date.vi"/>
+		<Item Name="Validate Table Column Name.vi" Type="VI" URL="../Validate Table Column Name.vi"/>
 		<Item Name="Validate Table Name.vi" Type="VI" URL="../Validate Table Name.vi"/>
+		<Item Name="Validate Table Display Name.vi" Type="VI" URL="../Validate Table Display Name.vi"/>
 	</Item>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
