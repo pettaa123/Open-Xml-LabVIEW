@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-11-05 10:22:55" Modified_Date="2025-11-18 14:17:38" Creator="tupp_js" Comments="" ID="8e7942e5d9e759cad09732e33a1f03dc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-11-05 10:22:55" Modified_Date="2025-11-22 10:22:24" Creator="tupp_js" Comments="" ID="2e186fd973f92264f5edadbb4458761f">
   <Library_General_Settings>
     <Package_File_Name>Peter_lib_Open_Xml</Package_File_Name>
-    <Library_Version>1.0.0.13</Library_Version>
+    <Library_Version>1.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -575,7 +575,7 @@
         <Path>..\Source\Get Table Column Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8949B5F2D8782AA49782ED44AD76F0F5</GUID>
+      <GUID>27B980C1D12A809A583100E90F41C00C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
