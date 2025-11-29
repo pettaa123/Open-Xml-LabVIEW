@@ -110,6 +110,7 @@
 		<Item Name="Get or Add WorkbookStylesPart.vi" Type="VI" URL="../Get or Add WorkbookStylesPart.vi"/>
 		<Item Name="Get or Add WorksheetPart.vi" Type="VI" URL="../Get or Add WorksheetPart.vi"/>
 		<Item Name="Get DefinedName.vi" Type="VI" URL="../Get DefinedName.vi"/>
+		<Item Name="Get Highest Row Index.vi" Type="VI" URL="../Get Highest Row Index.vi"/>
 		<Item Name="_Get Named Range.vi" Type="VI" URL="../_Get Named Range.vi"/>
 		<Item Name="Get Row in Worksheet.vi" Type="VI" URL="../Get Row in Worksheet.vi"/>
 		<Item Name="Get Sheet.vi" Type="VI" URL="../Get Sheet.vi"/>
@@ -143,6 +144,7 @@
 		<Item Name="Validate Table Column Name.vi" Type="VI" URL="../Validate Table Column Name.vi"/>
 		<Item Name="Validate Table Name.vi" Type="VI" URL="../Validate Table Name.vi"/>
 		<Item Name="Validate Table Display Name.vi" Type="VI" URL="../Validate Table Display Name.vi"/>
+		<Item Name="Untitled 3.vi" Type="VI" URL="/C/Users/tupp_js/Desktop/deleteme/Untitled 3.vi"/>
 	</Item>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>

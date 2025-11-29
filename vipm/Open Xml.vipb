@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-11-05 10:22:55" Modified_Date="2025-11-29 16:07:17" Creator="tupp_js" Comments="" ID="ce88d4ca1038bab9fc51baa5ce5f9a9f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-11-05 10:22:55" Modified_Date="2025-11-29 18:46:37" Creator="tupp_js" Comments="" ID="cc5959d90053fd600ffc9023e3e8149d">
   <Library_General_Settings>
     <Package_File_Name>Peter_lib_Open_Xml</Package_File_Name>
-    <Library_Version>1.0.0.18</Library_Version>
+    <Library_Version>1.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -595,7 +595,7 @@
         <Path>..\Source\Open or Create.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BAA554A349D81B68B07A0D6B702B7791</GUID>
+      <GUID>D9F12F818E200B23C114AADA7E3928CE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

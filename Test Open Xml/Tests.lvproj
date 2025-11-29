@@ -13,6 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Open Xml.lvlib" Type="Library" URL="../../Source/Open Xml.lvlib"/>
 		<Item Name="Test Open Xml.lvclass" Type="LVClass" URL="../Test Open Xml.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
