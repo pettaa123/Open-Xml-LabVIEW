@@ -8,7 +8,7 @@ This wrapper has been tested against [OpenXML SDK](https://github.com/dotnet/Ope
 ## VIPM
 
 The `vipm` folder contains a VIPM package with everything needed to use this wrapper.  
-It creates an **Open XML** palette under *Functions*.
+It creates an **Open Xml** palette under *Addons*.
 
 ---
 
@@ -34,7 +34,7 @@ It creates an **Open XML** palette under *Functions*.
 ## Public API
 
 This library provides functions for setting and retrieving cell values and named ranges in an Excel worksheet.  
-For example usage, refer to the `tests` folder.
+For example usage, refer to the `Test Open Xml` folder.
 
 ![palette](pallette.png)
 

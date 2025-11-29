@@ -170,4 +170,5 @@
 	<Item Name="Set Font.vi" Type="VI" URL="../Set Font.vi"/>
 	<Item Name="Set Row Values.vi" Type="VI" URL="../Set Row Values.vi"/>
 	<Item Name="Set Named Range.vi" Type="VI" URL="../Set Named Range.vi"/>
+	<Item Name="Open or Create.vi" Type="VI" URL="../Open or Create.vi"/>
 </Library>
