@@ -46,6 +46,7 @@
 		<Item Name="Add CellFormat to CellStyleFormats.vi" Type="VI" URL="../Add CellFormat to CellStyleFormats.vi"/>
 		<Item Name="Add CellFormat to CellFormats.vi" Type="VI" URL="../Add CellFormat to CellFormats.vi"/>
 		<Item Name="Add Custom NumberingFormat.vi" Type="VI" URL="../Add Custom NumberingFormat.vi"/>
+		<Item Name="Add Columns.vi" Type="VI" URL="../Add Columns.vi"/>
 		<Item Name="Add DefinedName.vi" Type="VI" URL="../Add DefinedName.vi"/>
 		<Item Name="Add Fill to Stylesheet.vi" Type="VI" URL="../Add Fill to Stylesheet.vi"/>
 		<Item Name="Add Font to Stylesheet.vi" Type="VI" URL="../Add Font to Stylesheet.vi"/>
@@ -90,6 +91,7 @@
 		<Item Name="Get or Add CellFormats.vi" Type="VI" URL="../Get or Add CellFormats.vi"/>
 		<Item Name="Get or Add CellStyleFormats.vi" Type="VI" URL="../Get or Add CellStyleFormats.vi"/>
 		<Item Name="Get or Add CellStyles.vi" Type="VI" URL="../Get or Add CellStyles.vi"/>
+		<Item Name="Get or Add Columns.vi" Type="VI" URL="../Get or Add Columns.vi"/>
 		<Item Name="Get or Add DefinedNames.vi" Type="VI" URL="../Get or Add DefinedNames.vi"/>
 		<Item Name="Get or Add Fills.vi" Type="VI" URL="../Get or Add Fills.vi"/>
 		<Item Name="Get or Add Font.vi" Type="VI" URL="../Get or Add Font.vi"/>
@@ -109,6 +111,7 @@
 		<Item Name="Get or Add Workbookpart.vi" Type="VI" URL="../Get or Add Workbookpart.vi"/>
 		<Item Name="Get or Add WorkbookStylesPart.vi" Type="VI" URL="../Get or Add WorkbookStylesPart.vi"/>
 		<Item Name="Get or Add WorksheetPart.vi" Type="VI" URL="../Get or Add WorksheetPart.vi"/>
+		<Item Name="Get Columns.vi" Type="VI" URL="../Get Columns.vi"/>
 		<Item Name="Get DefinedName.vi" Type="VI" URL="../Get DefinedName.vi"/>
 		<Item Name="Get Highest Row Index.vi" Type="VI" URL="../Get Highest Row Index.vi"/>
 		<Item Name="_Get Named Range.vi" Type="VI" URL="../_Get Named Range.vi"/>
@@ -144,7 +147,6 @@
 		<Item Name="Validate Table Column Name.vi" Type="VI" URL="../Validate Table Column Name.vi"/>
 		<Item Name="Validate Table Name.vi" Type="VI" URL="../Validate Table Name.vi"/>
 		<Item Name="Validate Table Display Name.vi" Type="VI" URL="../Validate Table Display Name.vi"/>
-		<Item Name="Untitled 3.vi" Type="VI" URL="/C/Users/tupp_js/Desktop/deleteme/Untitled 3.vi"/>
 	</Item>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
@@ -152,6 +154,7 @@
 	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>
 	<Item Name="Get Cell Values.vi" Type="VI" URL="../Get Cell Values.vi"/>
 	<Item Name="Get Cell Values (VAR).vi" Type="VI" URL="../Get Cell Values (VAR).vi"/>
+	<Item Name="Get Column Width.vi" Type="VI" URL="../Get Column Width.vi"/>
 	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
 	<Item Name="Get Named Range.vi" Type="VI" URL="../Get Named Range.vi"/>
 	<Item Name="Get Named Ranges.vi" Type="VI" URL="../Get Named Ranges.vi"/>
@@ -167,10 +170,11 @@
 	<Item Name="Get Table Values (VAR).vi" Type="VI" URL="../Get Table Values (VAR).vi"/>
 	<Item Name="Insert Table.vi" Type="VI" URL="../Insert Table.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
+	<Item Name="Open or Create.vi" Type="VI" URL="../Open or Create.vi"/>
 	<Item Name="Set Cell Value.vim" Type="VI" URL="../Set Cell Value.vim"/>
 	<Item Name="Set Column Values.vi" Type="VI" URL="../Set Column Values.vi"/>
+	<Item Name="Set Column Width.vi" Type="VI" URL="../Set Column Width.vi"/>
 	<Item Name="Set Font.vi" Type="VI" URL="../Set Font.vi"/>
 	<Item Name="Set Row Values.vi" Type="VI" URL="../Set Row Values.vi"/>
 	<Item Name="Set Named Range.vi" Type="VI" URL="../Set Named Range.vi"/>
-	<Item Name="Open or Create.vi" Type="VI" URL="../Open or Create.vi"/>
 </Library>

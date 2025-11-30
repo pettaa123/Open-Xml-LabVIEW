@@ -7,7 +7,7 @@
     <ProjectGuid>{BE94659A-C76A-47F7-8C98-5CDCCA37515F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenXmlHelpers</RootNamespace>
+    <RootNamespace>OpenXmlGenericsWrapper</RootNamespace>
     <AssemblyName>OpenXmlGenericsWrapper</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

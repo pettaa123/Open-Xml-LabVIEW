@@ -1,11 +1,8 @@
 ﻿using DocumentFormat.OpenXml;
-using DocumentFormat.OpenXml.Office2016.Drawing.Charts;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using static OpenXmlGenericsWrapper.NonGenerics;
 
 
 namespace OpenXmlGenericsWrapper
@@ -157,6 +154,146 @@ namespace OpenXmlGenericsWrapper
             }
 
             return nextId;
+        }
+        public enum WorksheetChildType
+        {
+            Columns,
+            SheetViews,
+            SheetFormatPr,
+            PageMargins,
+            PageSetup,
+            HeaderFooter,
+            ConditionalFormatting,
+            DataValidations,
+            MergeCells,
+            Hyperlinks,
+            Drawing,
+            ExtLst
+        }
+        public static void InsertWorksheetChild(Worksheet worksheet, WorksheetChildType type, Object newChild)
+        {
+            switch (type)
+            {
+                case WorksheetChildType.Columns:
+                    // Columns must come before SheetData
+                    var sheetData = worksheet.GetFirstChild<SheetData>();
+                    worksheet.InsertBefore((Columns)newChild, sheetData);
+                    break;
+
+                case WorksheetChildType.SheetViews:
+                    // SheetViews must come before SheetFormatPr and SheetData
+                    var sheetFormatPr = worksheet.GetFirstChild<SheetFormatProperties>();
+                    if (sheetFormatPr != null)
+                        worksheet.InsertBefore((SheetViews)newChild, sheetFormatPr);
+                    else
+                    {
+                        var sheetDataForViews = worksheet.GetFirstChild<SheetData>();
+                        worksheet.InsertBefore((SheetViews)newChild, sheetDataForViews);
+                    }
+                    break;
+
+                case WorksheetChildType.SheetFormatPr:
+                    // SheetFormatPr must come before Columns and SheetData
+                    var columns = worksheet.GetFirstChild<Columns>();
+                    if (columns != null)
+                        worksheet.InsertBefore((SheetFormatProperties)newChild, columns);
+                    else
+                    {
+                        var sheetDataForFormat = worksheet.GetFirstChild<SheetData>();
+                        worksheet.InsertBefore((SheetFormatProperties)newChild, sheetDataForFormat);
+                    }
+                    break;
+
+                case WorksheetChildType.PageMargins:
+                    // PageMargins must come after SheetData
+                    var sheetDataForMargins = worksheet.GetFirstChild<SheetData>();
+                    worksheet.InsertAfter((PageMargins)newChild, sheetDataForMargins);
+                    break;
+
+                case WorksheetChildType.PageSetup:
+                    // PageSetup must come after PageMargins
+                    var pageMargins = worksheet.GetFirstChild<PageMargins>();
+                    if (pageMargins != null)
+                        worksheet.InsertAfter((PageSetup)newChild, pageMargins);
+                    else
+                    {
+                        var sheetDataForSetup = worksheet.GetFirstChild<SheetData>();
+                        worksheet.InsertAfter((PageSetup)newChild, sheetDataForSetup);
+                    }
+                    break;
+
+                case WorksheetChildType.HeaderFooter:
+                    // HeaderFooter must come after PageSetup
+                    var pageSetup = worksheet.GetFirstChild<PageSetup>();
+                    if (pageSetup != null)
+                        worksheet.InsertAfter((HeaderFooter)newChild, pageSetup);
+                    else
+                    {
+                        var sheetDataForHeader = worksheet.GetFirstChild<SheetData>();
+                        worksheet.InsertAfter((HeaderFooter)newChild, sheetDataForHeader);
+                    }
+                    break;
+
+                case WorksheetChildType.ConditionalFormatting:
+                    // ConditionalFormatting must come after SheetData
+                    var sheetDataForCond = worksheet.GetFirstChild<SheetData>();
+                    worksheet.InsertAfter((ConditionalFormatting)newChild, sheetDataForCond);
+                    break;
+
+                case WorksheetChildType.DataValidations:
+                    // DataValidations must come after ConditionalFormatting or SheetData
+                    var condFormatting = worksheet.GetFirstChild<ConditionalFormatting>();
+                    if (condFormatting != null)
+                        worksheet.InsertAfter((DataValidations)newChild, condFormatting);
+                    else
+                    {
+                        var sheetDataForValidations = worksheet.GetFirstChild<SheetData>();
+                        worksheet.InsertAfter((DataValidations)newChild, sheetDataForValidations);
+                    }
+                    break;
+
+                case WorksheetChildType.MergeCells:
+                    // MergeCells must come after SheetData
+                    var sheetDataForMerge = worksheet.GetFirstChild<SheetData>();
+                    worksheet.InsertAfter((MergeCells)newChild, sheetDataForMerge);
+                    break;
+
+                case WorksheetChildType.Hyperlinks:
+                    // Hyperlinks must come after DataValidations or SheetData
+                    var dataValidations = worksheet.GetFirstChild<DataValidations>();
+                    if (dataValidations != null)
+                        worksheet.InsertAfter((Hyperlinks)newChild, dataValidations);
+                    else
+                    {
+                        var sheetDataForLinks = worksheet.GetFirstChild<SheetData>();
+                        worksheet.InsertAfter((Hyperlinks)newChild, sheetDataForLinks);
+                    }
+                    break;
+
+                case WorksheetChildType.Drawing:
+                    // Drawing must come after HeaderFooter or PageSetup
+                    var headerFooter = worksheet.GetFirstChild<HeaderFooter>();
+                    if (headerFooter != null)
+                        worksheet.InsertAfter((Drawing)newChild, headerFooter);
+                    else
+                    {
+                        var pageSetupForDrawing = worksheet.GetFirstChild<PageSetup>();
+                        if (pageSetupForDrawing != null)
+                            worksheet.InsertAfter((Drawing)newChild, pageSetupForDrawing);
+                        else
+                        {
+                            var sheetDataForDrawing = worksheet.GetFirstChild<SheetData>();
+                            worksheet.InsertAfter((Drawing)newChild, sheetDataForDrawing);
+                        }
+                    }
+                    break;
+
+                case WorksheetChildType.ExtLst:
+                    // ExtLst must come last
+                    worksheet.Append((ExtensionList)newChild);
+                    break;
+            }
+            return;
         }
     }
 }
