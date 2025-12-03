@@ -21,7 +21,7 @@
 		<Item Name="-8344 Invalid Cell Value Type--error.vi" Type="VI" URL="../-8344 Invalid Cell Value Type--error.vi"/>
 		<Item Name="-8345 file already exists--error.vi" Type="VI" URL="../-8345 file already exists--error.vi"/>
 		<Item Name="-8346 Unsupported Value Type--error.vi" Type="VI" URL="../-8346 Unsupported Value Type--error.vi"/>
-		<Item Name="-8347 Invalid SheetcName--error.vi" Type="VI" URL="../-8347 Invalid SheetcName--error.vi"/>
+		<Item Name="-8347 Invalid SheetName--error.vi" Type="VI" URL="../-8347 Invalid SheetName--error.vi"/>
 		<Item Name="-8348 Invalid Cell Range--error.vi" Type="VI" URL="../-8348 Invalid Cell Range--error.vi"/>
 		<Item Name="-8349 invalid cell format string--error.vi" Type="VI" URL="../-8349 invalid cell format string--error.vi"/>
 		<Item Name="-8350 Invalid Range Identifier--error.vi" Type="VI" URL="../-8350 Invalid Range Identifier--error.vi"/>
@@ -37,6 +37,7 @@
 		<Item Name="-8332 Table display name must not be R or C--error.vi" Type="VI" URL="../-8332 Table display name must not be R or C--error.vi"/>
 		<Item Name="-8331 Forbidden characters in table column name--error.vi" Type="VI" URL="../-8331 Forbidden characters in table column name--error.vi"/>
 		<Item Name="-8330 Could not find table--error.vi" Type="VI" URL="../-8330 Could not find table--error.vi"/>
+		<Item Name="-8329 Sheet not found--error.vi" Type="VI" URL="../-8329 Sheet not found--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
