@@ -38,6 +38,7 @@
 		<Item Name="-8331 Forbidden characters in table column name--error.vi" Type="VI" URL="../-8331 Forbidden characters in table column name--error.vi"/>
 		<Item Name="-8330 Could not find table--error.vi" Type="VI" URL="../-8330 Could not find table--error.vi"/>
 		<Item Name="-8329 Sheet not found--error.vi" Type="VI" URL="../-8329 Sheet not found--error.vi"/>
+		<Item Name="-8328 Document Contains no Sheet--error.vi" Type="VI" URL="../-8328 Document Contains no Sheet--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
