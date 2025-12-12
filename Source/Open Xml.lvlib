@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*$!!!*Q(C=\&gt;5R&lt;NN!%)8BZS#&amp;7Q%'UBI%&gt;)&amp;-ZVJ(-'^A4)[A.K5/9-#9/JXK&gt;$J"A,G#LK!L+0]OBY)&gt;''"D!U:ALF?C(LGTHZ95,@8N7PKK]]+W8NL;+?@ZJ&lt;V6G`&lt;G:)\GI_@J&lt;TY_D:^WVS_K8):7S8`LTQ.?HX`:P`4^^&lt;F^&lt;P`X^H0J.`$_PY-LN1=20?F"&gt;\KJ48N/]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C0PD6TE)B=ZJ'4S:++E;&amp;)A/2G+EJ@%EXA34_,BIR*0YEE]C3@R=)I34_**0)EH]4"-C3@R**\%EXAIV38:'TG?R%.Z":\!%XA#4_"B3A7?!""-&amp;B1/CM"1=$$9#4S"*`#QK]!4?!*0Y!E](&amp;&lt;A#4S"*`!%(I&lt;U69GO;9U=$W8E?"S0YX%]DI@3=DS/R`%Y(M@$&gt;()]DM&gt;"/"-[R3()'?3=Y(RQ0)[(.TE?R_.Y()`DY6#`1NZ8JGF;)]&gt;D?!S0Y4%]BI=3-DS'R`!9(M.$72E?QW.Y$)`B93I:(M.D?!S)-3H4SSBG$$2/-A,$QV_`7[R@J?A3[UWKGV&gt;V5[JO.N6.J,IZ6"&gt;&gt;&gt;4&amp;6&amp;UGV_+J&amp;63W7;B&amp;58U[&amp;6G&amp;5E[A'NR.VYP6)0^$X^"V^3R`J'`J!8\7B&lt;XTC[843]8D5Y8$1@L`8&lt;L@4&gt;LP6/)\;&lt;$9;BE'LV?LS',CF82Y)UX/J@@BR.^Y]`BJ`0XX`=`]YD$=0&gt;_/X;98@`@`T"XAW[IO?T]%;`15+#&amp;FJ!!!!!!</Property>
+	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">19.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
