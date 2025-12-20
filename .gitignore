@@ -1,0 +1,57 @@
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+.vs/
+.cache
+.Up2Data
+obj/Debug
+
+# Testdata
+*.xlsx
+
+#CSharp
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.svclog
+*.scc

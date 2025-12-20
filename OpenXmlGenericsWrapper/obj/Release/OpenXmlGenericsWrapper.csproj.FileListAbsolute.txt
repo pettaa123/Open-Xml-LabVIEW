@@ -1,0 +1,11 @@
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\bin\Release\OpenXmlGenericsWrapper.dll
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\bin\Release\OpenXmlGenericsWrapper.pdb
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\bin\Release\DocumentFormat.OpenXml.dll
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\bin\Release\DocumentFormat.OpenXml.Framework.dll
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\bin\Release\DocumentFormat.OpenXml.xml
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\bin\Release\DocumentFormat.OpenXml.Framework.xml
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\obj\Release\OpenXmlGenericsWrapper.csproj.AssemblyReference.cache
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\obj\Release\OpenXmlGenericsWrapper.csproj.CoreCompileInputs.cache
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\obj\Release\OpenXmlG.582B894A.Up2Date
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\obj\Release\OpenXmlGenericsWrapper.dll
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\obj\Release\OpenXmlGenericsWrapper.pdb
