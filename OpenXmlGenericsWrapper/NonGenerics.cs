@@ -56,17 +56,17 @@ namespace OpenXmlGenericsWrapper
         {
             switch (datatype)
             {
-                case DataType.Boolean:
-                    cell.DataType = new EnumValue<CellValues>(CellValues.Boolean);
-                    break;
                 case DataType.Number:
                     cell.DataType = new EnumValue<CellValues>(CellValues.Number);
                     break;
-                case DataType.Error:
-                    cell.DataType = new EnumValue<CellValues>(CellValues.Error);
-                    break;
                 case DataType.SharedString:
                     cell.DataType = new EnumValue<CellValues>(CellValues.SharedString);
+                    break;
+                case DataType.Date:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Date);
+                    break;
+                case DataType.Boolean:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Boolean);
                     break;
                 case DataType.String:
                     cell.DataType = new EnumValue<CellValues>(CellValues.String);
@@ -74,8 +74,8 @@ namespace OpenXmlGenericsWrapper
                 case DataType.InlineString:
                     cell.DataType = new EnumValue<CellValues>(CellValues.InlineString);
                     break;
-                case DataType.Date:
-                    cell.DataType = new EnumValue<CellValues>(CellValues.Date);
+                case DataType.Error:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Error);
                     break;
                 default:
                     cell.DataType = null;
@@ -154,16 +154,6 @@ namespace OpenXmlGenericsWrapper
             }
 
             return nextId;
-        }
-
-        public static uint GetHighestRowIndex(WorksheetPart worksheetPart)
-        {
-            var sheetData = worksheetPart.Worksheet.GetFirstChild<SheetData>();
-            // If no rows exist, return 0
-            if (sheetData == null || !sheetData.Elements<Row>().Any())
-                return 0;
-            // Use LINQ to get the maximum RowIndex
-            return sheetData.Elements<Row>().Max(r => r.RowIndex.Value);
         }
 
         public enum WorksheetChildType

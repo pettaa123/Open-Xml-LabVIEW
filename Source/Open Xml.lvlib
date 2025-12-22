@@ -77,7 +77,6 @@
 		<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Excel Cell Address to Numeric Indices.vi"/>
 		<Item Name="File Exists.vi" Type="VI" URL="../File Exists.vi"/>
 		<Item Name="Find Font.vi" Type="VI" URL="../Find Font.vi"/>
-		<Item Name="Find Row.vi" Type="VI" URL="../Find Row.vi"/>
 		<Item Name="Find StyleIndex by NumberingFormat.vi" Type="VI" URL="../Find StyleIndex by NumberingFormat.vi"/>
 		<Item Name="Format Cell Address.vi" Type="VI" URL="../Format Cell Address.vi"/>
 		<Item Name="Format Cell Range to Named Range.vi" Type="VI" URL="../Format Cell Range to Named Range.vi"/>
@@ -91,7 +90,6 @@
 		<Item Name="Get DefinedName Identifier Text and SheetId.vi" Type="VI" URL="../Get DefinedName Identifier Text and SheetId.vi"/>
 		<Item Name="Get First Row with Smaller Index.vi" Type="VI" URL="../Get First Row with Smaller Index.vi"/>
 		<Item Name="Get Highest Row Index.vi" Type="VI" URL="../Get Highest Row Index.vi"/>
-		<Item Name="Get Highest Row Index Fast.vi" Type="VI" URL="../Get Highest Row Index Fast.vi"/>
 		<Item Name="Get Last Row Index.vi" Type="VI" URL="../Get Last Row Index.vi"/>
 		<Item Name="_Get Named Range.vi" Type="VI" URL="../_Get Named Range.vi"/>
 		<Item Name="Get or Add Borders.vi" Type="VI" URL="../Get or Add Borders.vi"/>
@@ -182,4 +180,8 @@
 	<Item Name="Set Font.vi" Type="VI" URL="../Set Font.vi"/>
 	<Item Name="Set Row Values.vi" Type="VI" URL="../Set Row Values.vi"/>
 	<Item Name="Set Named Range.vi" Type="VI" URL="../Set Named Range.vi"/>
+	<Item Name="_Set Cell Value.vim" Type="VI" URL="../_Set Cell Value.vim"/>
+	<Item Name="Get Worksheet.vi" Type="VI" URL="../Get Worksheet.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
