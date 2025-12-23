@@ -40,6 +40,9 @@
 		<Item Name="-8329 Sheet not found--error.vi" Type="VI" URL="../-8329 Sheet not found--error.vi"/>
 		<Item Name="-8328 Document Contains no Sheet--error.vi" Type="VI" URL="../-8328 Document Contains no Sheet--error.vi"/>
 	</Item>
+	<Item Name="errors public" Type="Folder">
+		<Item Name="-8353 Invalid SpreadsheetDocument Reference--error.vi" Type="VI" URL="../-8353 Invalid SpreadsheetDocument Reference--error.vi"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Add Border to Stylesheet.vi" Type="VI" URL="../Add Border to Stylesheet.vi"/>
